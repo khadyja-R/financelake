@@ -22,7 +22,7 @@ limitations under the License.
 # FinanceLake
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=github&color=2370ff&labelColor=454545)](http://makeapullrequest.com)
-[![unit-test](https://github.com/apache/incubator-devlake/actions/workflows/test.yml/badge.svg)](https://github.com/apache/incubator-devlake/actions/workflows/test.yml)
+[![unit-test](https://github.com/apache/incubator-devlake/actions/workflows/test.yml/badge.svg)](https://github.com/FinanceLake/financelake/actions/workflows/test.yml)
 
 </div>
 <br>
@@ -32,7 +32,7 @@ limitations under the License.
 
 [FinanceLake](https://devlake.apache.org) is an open-source dev data platform that ingests, analyzes, and visualizes the fragmented data from DevOps tools to extract insights for engineering excellence, developer experience, and community growth.
 
-FinanceLake is used by Engineering Leads, Open Source Software Maintainers and development teams looking to make better sense of their development process and to bring a more data-driven approach to their own practices. You can ask Apache DevLake many questions regarding your development process. Just connect and query.
+FinanceLake is used by Engineering Leads, Open Source Software Maintainers and development teams looking to make better sense of their development process and to bring a more data-driven approach to their own practices. You can ask FinanceLack many questions regarding your development process. Just connect and query.
 
 ## 🎯 What can be accomplished with FinanceLake?
 
