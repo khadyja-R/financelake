@@ -30,7 +30,7 @@ limitations under the License.
 
 ## 🤔 What is FinanceLake?
 
-[FinanceLake](https://devlake.apache.org) is an open-source dev data platform that ingests, analyzes, and visualizes the fragmented data from DevOps tools to extract insights for engineering excellence, developer experience, and community growth.
+[FinanceLake](#) is an open-source dev data platform that ingests, analyzes, and visualizes the fragmented data from DevOps tools to extract insights for engineering excellence, developer experience, and community growth.
 
 FinanceLake is used by Engineering Leads, Open Source Software Maintainers and development teams looking to make better sense of their development process and to bring a more data-driven approach to their own practices. You can ask FinanceLack many questions regarding your development process. Just connect and query.
 
