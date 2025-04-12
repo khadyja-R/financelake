@@ -20,7 +20,7 @@ limitations under the License.
 <img src="resources/img/logo.svg" width="120px" alt="">
 <br/>
 
-# Apache DevLake(Incubating)
+# FinanceLake
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=github&color=2370ff&labelColor=454545)](http://makeapullrequest.com)
 [![Dockerhub pulls](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhub.docker.com%2Fv2%2Frepositories%2Fapache%2Fdevlake&query=%24.pull_count&label=Dockerhub%20pulls)](https://hub.docker.com/r/apache/devlake)
