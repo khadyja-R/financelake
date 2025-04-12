@@ -16,7 +16,7 @@ limitations under the License.
 -->
 <div align="center">
 <br/>
-<img src="resources/img/logo.svg" width="120px" alt="">
+<img src="resources/img/logo.png" width="120px" alt="">
 <br/>
 
 # FinanceLake
