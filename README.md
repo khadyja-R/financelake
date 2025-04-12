@@ -81,7 +81,7 @@ If you plan to contribute code to FinanceLake, we have instructions on how to ge
 One of the best ways to get started contributing is by improving FinanceLake's documentation. 
 
 - FinanceLake's documentation is hosted at [FinanceLake](#)
-- **We have a separate GitHub repository for Apache FinanceLack's documentation:** [github.com/FinanceLake/financelake-docs](https://github.com/FinanceLake/financelake-docs)
+- **We have a separate GitHub repository for FinanceLack's documentation:** [github.com/FinanceLake/financelake-docs](https://github.com/FinanceLake/financelake-docs)
 
 ## ⌚ Roadmap
 
