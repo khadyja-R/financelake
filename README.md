@@ -1,19 +1,3 @@
-<!--
-Licensed to the Apache Software Foundation (ASF) under one or more
-contributor license agreements.  See the NOTICE file distributed with
-this work for additional information regarding copyright ownership.
-The ASF licenses this file to You under the Apache License, Version 2.0
-(the "License"); you may not use this file except in compliance with
-the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
--->
 <div align="center">
 <br/>
 <img src="resources/img/logo.png" width="120px" alt="">
@@ -28,11 +12,42 @@ limitations under the License.
 <br>
 <div align="left">
 
-## 🤔 What is FinanceLake?
+## What is FinanceLake?
+[FinanceLake](#) is an **open-source financial data platform** that ingests, analyzes, and visualizes market and financial data — similar in ambition to platforms like Bloomberg Terminal, but powered by open technologies.
 
-[FinanceLake](#) is an open-source dev data platform that ingests, analyzes, and visualizes the fragmented data from DevOps tools to extract insights for engineering excellence, developer experience, and community growth.
+Whether you're a quant, data engineer, open-source maintainer, or trading enthusiast, **FinanceLake** offers a scalable and intelligent data stack to support **real-time insights**, **financial research**, and **data-driven decision-making**.
 
-FinanceLake is used by Engineering Leads, Open Source Software Maintainers and development teams looking to make better sense of their development process and to bring a more data-driven approach to their own practices. You can ask FinanceLack many questions regarding your development process. Just connect and query.
+---
+
+## 🚀 Features
+
+- 📥 **Data Ingestion**  
+  Real-time and batch ingestion pipelines using **Apache Kafka**, **Apache NiFi**, and **API connectors** (e.g., Yahoo Finance, Alpha Vantage, Quandl, etc.)
+
+- ⚙️ **Big Data Processing**  
+  Built on top of **Apache Spark**, **Hadoop**, and **Delta Lake** for scalable and resilient analytics.
+
+- 📈 **Advanced Analytics**  
+  Analyze financial trends, compute indicators, perform backtesting, and build custom financial metrics.
+
+- 📊 **Interactive Visualization**  
+  Visual dashboards powered by **Grafana**, **Apache Superset**, or **Streamlit**.
+
+- 🧠 **Query Engine**  
+  Ask questions and get answers using a simple SQL-like interface or a natural language layer (NLQ) with optional LLM integration.
+
+- 📡 **Data APIs**  
+  REST & GraphQL APIs to expose insights and dashboards to downstream systems or external apps.
+
+---
+
+## 💡 Use Cases
+
+- Market trend monitoring for trading teams
+- Quantitative research and strategy testing
+- Portfolio performance visualization
+- Risk metrics computation
+- Real-time financial data streaming and alerting
 
 ## 🎯 What can be accomplished with FinanceLake?
 
