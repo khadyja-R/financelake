@@ -7,6 +7,7 @@
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=github&color=2370ff&labelColor=454545)](http://makeapullrequest.com)
 [![unit-test](https://github.com/apache/incubator-devlake/actions/workflows/test.yml/badge.svg)](https://github.com/FinanceLake/financelake/actions/workflows/test.yml)
+[![Join us on Discord](https://img.shields.io/badge/Join_Us_on-Discord-5865F2?style=flat&logo=discord&logoColor=white&labelColor=2C2F33)](https://discord.gg/rP2dNEFJ4Y)
 
 </div>
 <br>
@@ -134,6 +135,6 @@ One of the best ways to get started contributing is by improving FinanceLake's d
 
 ## 💙 Community
 
-Message us on <a href="#" target="_blank">Discord</a>
+Message us on <a href="https://discord.gg/rP2dNEFJ4Y" target="_blank">Discord</a>
 
 ## 📄 License<a id="license"></a>
