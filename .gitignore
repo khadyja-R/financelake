@@ -16,4 +16,4 @@ __pycache__/
 .idea/
 
 # Dataset
-data-ingestion-kafka/data/transaction.csv
+data-ingestion-kafka/data/
