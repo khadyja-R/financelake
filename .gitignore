@@ -16,4 +16,4 @@ __pycache__/
 .idea/
 
 # Dataset
-data-ingestion-kafka/data/
+data-ingestion-kafka/data/creditcard.csv
