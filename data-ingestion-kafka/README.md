@@ -1,8 +1,5 @@
 ###### Kafka Data Ingestion Mini-Project - FinanceLake
 
-
-This mini-project demonstrates a simple **data ingestion pipeline** using **Apache Kafka** to stream financial transactions into the FinanceLake ecosystem.
-
 ## Objective
 
 To showcase how Apache Kafka can be used to ingest real-time financial data (CSV-based) and stream it into FinanceLake.
@@ -23,6 +20,7 @@ To showcase how Apache Kafka can be used to ingest real-time financial data (CSV
 - Apache Kafka 4.0.0
 - Python 3.12.3
 - `kafka-python` library
+-`python-dotenv` library
 
 ##  Sample Dataset
 
@@ -40,60 +38,64 @@ Or via command line (requires [Kaggle CLI](https://github.com/Kaggle/kaggle-api)
 `unzip creditcardfraud.zip -d data/`
 
 
+## Environment Variables
 
+Create a .env file in the project root based on .env.example using this commande:
+
+`cp .env.example .env`
 
 
 ##  How to Run
 
-### 1. Install Requirements
+1- Create and activate a virtual environment:
 
-Make sure Kafka and Python are installed. Install the `kafka-python` library:
+Before installing dependencies, it's recommended to create a Python virtual environment to keep your project isolated:
+
+`python3 -m venv .venv`
+`source .venv/bin/activate`
+
+All reuired  Python packages (like kafka-python and python-dotenv) will be installed inside this virtual environment.
 
 
-`pip install kafka-python`
+2- Install Requirements
+
+Make sure Kafka and Python are installed. Install the `kafka-python` and `python-dotenv` library:
+
+`pip install kafka-python  python-dotenv`
 
 
-2- Format the KRaft storage (only once)
+3- Format the KRaft storage (only once)
 
 `bin/kafka-storage.sh format -t $(bin/kafka-storage.sh random-uuid) -c config/kraft/server.properties`
 
 
-3- start kafka-server
+4- start kafka-server
 
 -terminale  1 
 
 `bin/kafka-server-start.sh config/kraft/server.properties`
 
-4- Create the Kafka topic
+5- Create the Kafka topic
 
 
 `bin/kafka-topics.sh --create --topic transactions --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1`
 
 
-
-###Create and activate a virtual environment:
-
-`python3 -m venv .venv`
-`source .venv/bin/activate`
-
-
-
-
-5-Run your Python Kafka producer:
+6-Run your Python Kafka producer:
 -terminale  2
 `python3 producer.py`
 
 
 
-6- Run your python Kafka Consumer:
+7- Run your python Kafka Consumer:
 -terminale  3
 `python3 consumer.py`
 
-7- start hdfs services
+8- start hdfs services
 
 `start-dfs.sh`
 
-8- create directory 
+9- create directory 
 
 hdfs dfs -mkdir -p /user/your-username/finance-data
 hdfs dfs -put /tmp/transactions.log /user/your-username/finance-data/
