@@ -1,4 +1,3 @@
-###### Kafka Data Ingestion Mini-Project - FinanceLake
 
 ## Objective
 
