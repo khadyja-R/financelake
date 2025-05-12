@@ -22,7 +22,7 @@ consumer = KafkaConsumer(
 print("Consuming from Kafka and writing to local file...")
 
 counter = 0  # To track number of records
-batch_size = 10  # Adjust based on how often you want to upload
+batch_size = 10  
 
 with open(LOG_FILE, 'a') as log_file:
     for message in consumer:

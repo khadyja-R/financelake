@@ -11,7 +11,7 @@ To showcase how Apache Kafka can be used to ingest real-time financial data (CSV
 
 ##  Architecture
 
-![Kafka Architecture](resources/img/kafka-archi.png)
+![Kafka Architecture](../resources/img/kafka-archi.png)
 
 - Kafka is **scalable**, **reactive**, and **event-driven**.
 - Kafka integrates easily with tools like **Apache Spark**, **NiFi**, or **HDFS**.

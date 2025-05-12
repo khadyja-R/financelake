@@ -7,7 +7,7 @@ load_dotenv()  # Load variables from .env file
 KAFKA_TOPIC = os.getenv("KAFKA_TOPIC", "finance-transactions")
 KAFKA_SERVER = os.getenv("KAFKA_BROKER", "localhost:9092")
 
-# CSV file path (you can also make this configurable)
+
 CSV_FILE = "data/creditcard.csv"
 
 # HDFS
